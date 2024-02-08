@@ -1,0 +1,384 @@
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?ver=6.2.4
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\font-awesome\4.5.0\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\font-awesome\4.5.0\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.eot?v=4.5.0
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\font-awesome\4.5.0\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.svg?v=4.5.0
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\font-awesome\4.5.0\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf?v=4.5.0
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\font-awesome\4.5.0\fonts\fontawesome-webfont.ttf
+Content Type: font/ttf
+
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\font-awesome\4.5.0\fonts\fontawesome-webfont.woff2
+Content Type: font/woff2
+
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.woff?v=4.5.0
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\font-awesome\4.5.0\fonts\fontawesome-webfont.woff
+Content Type: font/woff
+
+Uri: http://www.smartmerchantprocessing.com/
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\index.html
+Content Type: text/html
+
+Uri: http://www.smartmerchantprocessing.com/business-types/
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\business-types\index.html
+Content Type: text/html
+
+Uri: http://www.smartmerchantprocessing.com/comments/feed/
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\comments\feed\index.html
+Content Type: application/rss+xml
+
+Uri: http://www.smartmerchantprocessing.com/feed/
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\feed\index.html
+Content Type: application/rss+xml
+
+Uri: http://www.smartmerchantprocessing.com/give-back/
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\give-back\index.html
+Content Type: text/html
+
+Uri: http://www.smartmerchantprocessing.com/inquire/
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\inquire\index.html
+Content Type: text/html
+
+Uri: http://www.smartmerchantprocessing.com/opportunities/
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\opportunities\index.html
+Content Type: text/html
+
+Uri: http://www.smartmerchantprocessing.com/our-team/
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\our-team\index.html
+Content Type: text/html
+
+Uri: http://www.smartmerchantprocessing.com/privacy/
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\privacy\index.html
+Content Type: text/html
+
+Uri: http://www.smartmerchantprocessing.com/tools/
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\tools\index.html
+Content Type: text/html
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/plugins/gravityforms/js/conditional_logic.min.js?ver=2.2.5
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\plugins\gravityforms\js\conditional_logic.min.js
+Content Type: application/javascript
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.2.5
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\plugins\gravityforms\js\gravityforms.min.js
+Content Type: application/javascript
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.2.5
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\plugins\gravityforms\js\jquery.json.min.js
+Content Type: application/javascript
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.2.5
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\plugins\gravityforms\js\jquery.maskedinput.min.js
+Content Type: application/javascript
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/plugins/staff-list/css/staff-list.css?ver=1.7.4
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\plugins\staff-list\css\staff-list.css
+Content Type: text/css
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/assets/font/2CE886_0_0.eot
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\assets\font\2CE886_0_0.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/assets/font/2CE886_0_0.eot?
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\assets\font\2CE886_0_0-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/assets/font/2CE886_0_0.ttf
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\assets\font\2CE886_0_0.ttf
+Content Type: font/ttf
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/assets/font/2CE886_0_0.woff
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\assets\font\2CE886_0_0.woff
+Content Type: font/woff
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/assets/font/2CE886_0_0.woff2
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\assets\font\2CE886_0_0.woff2
+Content Type: font/woff2
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/assets/font/2CE886_1_0.eot
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\assets\font\2CE886_1_0.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/assets/font/2CE886_1_0.eot?
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\assets\font\2CE886_1_0-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/assets/font/2CE886_1_0.ttf
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\assets\font\2CE886_1_0.ttf
+Content Type: font/ttf
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/assets/font/2CE886_1_0.woff
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\assets\font\2CE886_1_0.woff
+Content Type: font/woff
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/assets/font/2CE886_1_0.woff2
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\assets\font\2CE886_1_0.woff2
+Content Type: font/woff2
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/assets/js/jquery.functions.js?ver=6.2.4
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\assets\js\jquery.functions.js
+Content Type: application/javascript
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/assets/js/jquery.slicknav.min.js?ver=6.2.4
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\assets\js\jquery.slicknav.min.js
+Content Type: application/javascript
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/themes/smp/style.css?ver=1.0.0
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\themes\smp\style.css
+Content Type: text/css
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/business-hospitality.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\business-hospitality.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/card-back.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\card-back.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/card-types.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\card-types.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/CarDealership.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\CarDealership.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/CreditCard.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\CreditCard.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/dark-back.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\dark-back.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/data-protection-steps.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\data-protection-steps.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/GasStation.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\GasStation.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/GroceryPharmacy.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\GroceryPharmacy.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/HealthCare.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\HealthCare.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/hero-darker.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\hero-darker.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/logo.png
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\logo.png
+Content Type: image/png
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/Municipality.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\Municipality.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/Professinal-Services-image.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\Professinal-Services-image.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/Restaurant.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\Restaurant.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2014/10/Retailers.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2014\10\Retailers.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2016/05/background-give-back.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2016\05\background-give-back.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2016/05/charity-dibia-dream.png
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2016\05\charity-dibia-dream.png
+Content Type: image/png
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2016/05/charity-make-a-wish.png
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2016\05\charity-make-a-wish.png
+Content Type: image/png
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2016/05/charity-miami-foundation.png
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2016\05\charity-miami-foundation.png
+Content Type: image/png
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2016/05/charity-sbp.png
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2016\05\charity-sbp.png
+Content Type: image/png
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2016/05/charity-st-albans.png
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2016\05\charity-st-albans.png
+Content Type: image/png
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2016/05/hero-about.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2016\05\hero-about.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2018/04/girl-image-backround-here-for-you.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2018\04\girl-image-backround-here-for-you.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2023/11/IMG_7539-2-1-282x300.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2023\11\IMG_7539-2-1-282x300.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2023/11/IMG_7546-Enhanced-NR-2-267x300.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2023\11\IMG_7546-Enhanced-NR-2-267x300.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2023/11/IMG_7549-276x300.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2023\11\IMG_7549-276x300.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2023/11/IMG_7564-Enhanced-NR-275x300.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2023\11\IMG_7564-Enhanced-NR-275x300.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-content/uploads/2023/11/IMG_7569-273x300.jpg
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-content\uploads\2023\11\IMG_7569-273x300.jpg
+Content Type: image/jpeg
+
+Uri: http://www.smartmerchantprocessing.com/wp-includes/css/classic-themes.min.css?ver=6.2.4
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-includes\css\classic-themes.min.css
+Content Type: text/css
+
+Uri: http://www.smartmerchantprocessing.com/wp-includes/css/dist/block-library/style.min.css?ver=6.2.4
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-includes\css\dist\block-library\style.min.css
+Content Type: text/css
+
+Uri: http://www.smartmerchantprocessing.com/wp-includes/js/comment-reply.min.js?ver=6.2.4
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-includes\js\comment-reply.min.js
+Content Type: application/javascript
+
+Uri: http://www.smartmerchantprocessing.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: application/javascript
+
+Uri: http://www.smartmerchantprocessing.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-includes\js\jquery\jquery.min.js
+Content Type: application/javascript
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\index.html
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2F
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-1
+Content Type: text/xml
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Fbusiness-types%2F
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-6
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Fbusiness-types%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-7
+Content Type: text/xml
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Fgive-back%2F
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-4
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Fgive-back%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-5
+Content Type: text/xml
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Finquire%2F
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-12
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Finquire%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-13
+Content Type: text/xml
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Fopportunities%2F
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-14
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Fopportunities%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-15
+Content Type: text/xml
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Four-team%2F
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-2
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Four-team%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-3
+Content Type: text/xml
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Fprivacy%2F
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-10
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Fprivacy%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-11
+Content Type: text/xml
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Ftools%2F
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-8
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/oembed/1.0/embed?url=http:%2F%2Fwww.smartmerchantprocessing.com%2Ftools%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\oembed\1.0\embed-9
+Content Type: text/xml
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/wp/v2/pages/12
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\wp\v2\pages\12
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/wp/v2/pages/2
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\wp\v2\pages\2
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/wp/v2/pages/20
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\wp\v2\pages\20
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/wp/v2/pages/22
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\wp\v2\pages\22
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/wp/v2/pages/238
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\wp\v2\pages\238
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/wp/v2/pages/311
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\wp\v2\pages\311
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/wp/v2/pages/6
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\wp\v2\pages\6
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/wp-json/wp/v2/pages/8
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\wp-json\wp\v2\pages\8
+Content Type: application/json
+
+Uri: http://www.smartmerchantprocessing.com/xmlrpc.php?rsd
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\xmlrpc.php
+Content Type: text/xml
+
+Uri: https://hello.myfonts.net/count/2ce886
+File Name: C:\Downloaded Web Sites\www.smartmerchantprocessing.com\count\2ce886
+Content Type: text/css
+
