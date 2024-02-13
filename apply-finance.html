@@ -474,6 +474,127 @@
         .hidden {
             display: none;
         }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            padding: 20px;
+        }
+
+        .label {
+            font-weight: bold;
+            font-size: 35px;
+            padding: 20px;
+        }
+
+        .detail p {
+            margin-bottom: 15px;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        /* Apply styles for qualification list */
+        .qualification-list {
+            list-style-type: none;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        /* Apply styles for benefit list */
+        .benefits-list {
+            list-style-type: none;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        /* Apply styles for the unordered lists in the job-related experience section */
+        .detail ul {
+            margin-bottom: 10px;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        /* Apply styles for the list items in the job-related experience section */
+        .detail li {
+            margin-bottom: 5px;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        /* Apply styles for headings in the job-related experience section */
+        .detail h3 {
+            margin-top: 10px;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        /* Apply styles for the paragraphs in the job-related experience section */
+        .detail p {
+            margin-bottom: 15px;
+            font-size: 16px;
+            padding: 20px;
+        }
+
+        .labee {
+            font-size: 16px;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        .job-re {
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        .contact-form {
+            width: 100%;
+            max-width: 100000px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+            margin-top: 4rem;
+        }
+
+        fieldset {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        legend {
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.5em;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select,
+        input[type="file"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="file"] {
+            margin-top: 5px;
+            /* Adjust as needed */
+        }
     </style>
     <link rel='stylesheet' id='abcfsl-staff-list-css'
         href='/wp-content/plugins/staff-list/css/staff-list.css?ver=1.7.4' type='text/css' media='all'>
@@ -644,24 +765,31 @@
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-316"><a
                             href="/our-team/index.html" itemprop="url"><span itemprop="name">About Us</span></a></li>
                     <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27">
-                        <a href="/give-back/index.html" itemprop="url"><span itemprop="name">Give Back</span></a></li>
+                        <a href="/give-back/index.html" itemprop="url"><span itemprop="name">Give Back</span></a>
+                    </li>
                     <li id="menu-item-185"
                         class="no-highlight menu-item menu-item-type-custom menu-item-object-custom menu-item-185"><a
                             href="/index.html#HereforYou" itemprop="url"><span itemprop="name">Here for You</span></a>
                     </li>
                     <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26">
                         <a href="/business-types/index.html" itemprop="url"><span itemprop="name">Business
-                                Types</span></a></li>
+                                Types</span></a>
+                    </li>
                     <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34">
-                        <a href="/tools/index.html" itemprop="url"><span itemprop="name">Tools</span></a></li>
-                        
-<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="privacy/index.html" itemprop="url"><span itemprop="name">Privacy</span></a></li>
+                        <a href="/tools/index.html" itemprop="url"><span itemprop="name">Tools</span></a>
+                    </li>
+
+                    <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32">
+                        <a href="privacy/index.html" itemprop="url"><span itemprop="name">Privacy</span></a>
+                    </li>
                     <li id="menu-item-32"
                         class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12 current_page_item menu-item-32">
-                        <a href="careers.html" aria-current="page" itemprop="url"><span itemprop="name">Careers</span></a>
+                        <a href="careers.html" aria-current="page" itemprop="url"><span
+                                itemprop="name">Careers</span></a>
                     </li>
                     <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30">
-                        <a href="/inquire/index.html" itemprop="url"><span itemprop="name">Inquire</span></a></li>
+                        <a href="/inquire/index.html" itemprop="url"><span itemprop="name">Inquire</span></a>
+                    </li>
                     <li id="menu-item-244"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244"><a
                             href="/opportunities/index.html" itemprop="url"><span
@@ -673,7 +801,7 @@
             <div class="wrap">
                 <div class="hero-container">
                     <div class="page-title">
-                        <h1>Careers</h1>
+                        <h1>Finance Intern</h1>
                     </div>
                     <div class="page-description">
                         <p>Join our team </p>
@@ -683,227 +811,69 @@
         </div>
 
         <section>
+            <form class="contact-form" id="myForm" action="https://formspree.io/f/xyyrwynb" method="POST"
+                enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Tell us about
+                        yourself</legend>
+                    <label for="Financefirst_name">First
+                        name</label>
+                    <input type="text" name="Financefirst_name" id="Financefirst_name" required>
 
-            <div class="cards-container">
-                <div class="card">
-                    <div class="header">
-                        <span class="price">Customer Service Supervisor</span>
-                    </div>
-                    <ul class="lists">
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Overview</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Responsibilities</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Qualifications & Benefits</span>
-                        </li>
-                    </ul>
-                    <a href="supervisor.html">
-                        <button type="button" class="action">Learn More</button>
-                    </a>
 
-                </div>
+                    <label for="last_name">Last
+                        name</label>
+                    <input type="text" name="last_name" id="last_name" required>
 
-                <div class="card">
-                    <div class="header">
-                        <span class="price">Customer Service Representative</span>
-                    </div>
-                    <ul class="lists">
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Overview</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Responsibilities</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Qualifications & Benefits</span>
-                        </li>
-                    </ul>
-                    <a href="representative.html">
-                        <button type="button" class="action">Learn More</button>
-                    </a>
+                    <label for="email">Email</label><input type="email" name="email" id="email" required>
 
-                </div>
-                <div class="card">
-                    <div class="header">
-                        <span class="price">Business Development Intern</span>
-                    </div>
-                    <ul class="lists">
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Overview</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Responsibilities</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Qualifications & Benefits</span>
-                        </li>
-                    </ul>
-                    <a href="business-intern.html">
-                        <button type="button" class="action">Learn More</button>
-                    </a>
-                </div>
-                <div class="card">
-                    <div class="header">
-                        <span class="price">Finance Intern</span>
-                    </div>
-                    <ul class="lists">
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Overview</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Responsibilities</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Qualifications & Benefits</span>
-                        </li>
-                    </ul>
-                    <a href="finance.html">
-                        <button type="button" class="action">Learn More</button>
-                    </a>
-                </div>
+                    <label for="phone_number">Phone
+                        number</label><input type="tel" name="phone_number" id="phone_number"
+                        placeholder="(XXX) XXX-XXXX" required>
 
-                <div class="hidden">
-                    <div class="card">
-                        <div class="header">
-                            <span class="price">Finance Intern</span>
-                        </div>
-                        <ul class="lists">
-                            <li class="list">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Overview</span>
-                            </li>
-                            <li class="list">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Responsibilities</span>
-                            </li>
-                            <li class="list">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Qualifications & Benefits</span>
-                            </li>
-                        </ul>
-                        <a href="your-link-here">
-                            <button type="button" class="action">Learn MOre</button>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <div class="header">
-                            <span class="price">Finance Intern</span>
-                        </div>
-                        <ul class="lists">
-                            <li class="list">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Overview</span>
-                            </li>
-                            <li class="list">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Responsibilities</span>
-                            </li>
-                            <li class="list">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Qualifications & Benefits</span>
-                            </li>
-                        </ul>
-                        <a href="your-link-here">
-                            <button type="button" class="action">Learn More</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
+                    <label for="address">Country</label>
+                    <select name="country" id="country" required>
+                        <option value>
+                            Country
+                        </option>
+                        <option value="United States of America">
+                            United
+                            States
+                            of
+                            America
+                        </option>
+                        <option value="Canada">
+                            Canada
+                        </option>
+                    </select>
 
+                    <label for="owner_address">Address:</label>
+                    <input type="text" id="owner_address" name="owner_address" required>
+
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+
+                    <label for="state">State:</label>
+                    <input type="text" id="State" name="State" required>
+
+                    <label for="zipcode">Zip
+                        Code:</label>
+                    <input type="number" id="zipcode" name="zipcode" pattern="\d{5}" placeholder="12345" required>
+                </fieldset>
+                <p><br /></p>
+                <fieldset>
+                    <legend>Upload Resume
+                    </legend>
+                    <p style>Please
+                        upload your
+                        resume</p>
+                    <label for="upload_doc">Upload
+                        Resume</label><input type="file" name="upload_doc" id="upload_doc" accept=".pdf,.jpg,.png"
+                        required>
+                </fieldset>
+                <button class="btn submit-form" type="submit">Submit</button>
+            </form>
         </section>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </section>
 
 
 
@@ -938,6 +908,21 @@
         id='slicknav-js'></script>
     <script type='text/javascript' src='/wp-content/themes/smp/assets/js/jquery.functions.js?ver=6.2.4'
         id='functions-js'></script>
+        <script>
+            document.getElementById('phone_number').addEventListener('input', function (event) {
+                let input = event.target;
+                let value = input.value.replace(/\D/g, ''); // Remove non-numeric characters
+                if (value.length > 10) {
+                    value = value.slice(0, 10); // Limit to 10 digits
+                }
+                if (value.length > 3) {
+                    // Format the phone number as (XXX) XXX-XXXX
+                    value = value.replace(/(\d{3})(\d{3})(\d{4})/, '($1) $2-$3');
+                }
+                input.value = value;
+            });
+        
+        </script>
 </body>
 
 </html>
