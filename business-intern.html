@@ -35,8 +35,8 @@
     </style>
     <link rel='stylesheet' id='genesis-child-theme-smp-css' href='/wp-content/themes/smp/style.css?ver=1.0.0'
         type='text/css' media='all'>
-    <link rel='stylesheet' id='wp-block-library-css'
-        href='/wp-includes/css/dist/block-library/style.min.css?ver=6.2.4' type='text/css' media='all'>
+    <link rel='stylesheet' id='wp-block-library-css' href='/wp-includes/css/dist/block-library/style.min.css?ver=6.2.4'
+        type='text/css' media='all'>
     <link rel='stylesheet' id='classic-theme-styles-css' href='/wp-includes/css/classic-themes.min.css?ver=6.2.4'
         type='text/css' media='all'>
     <style id='global-styles-inline-css' type='text/css'>
@@ -474,9 +474,87 @@
         .hidden {
             display: none;
         }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            padding: 20px;
+        }
+
+        .label {
+            font-weight: bold;
+            font-size: 35px;
+            padding: 20px;
+        }
+
+        .detail p {
+            margin-bottom: 15px;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        /* Apply styles for qualification list */
+        .qualification-list {
+            list-style-type: none;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        /* Apply styles for benefit list */
+        .benefits-list {
+            list-style-type: none;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        /* Apply styles for the unordered lists in the job-related experience section */
+        .detail ul {
+            margin-bottom: 10px;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        /* Apply styles for the list items in the job-related experience section */
+        .detail li {
+            margin-bottom: 5px;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        /* Apply styles for headings in the job-related experience section */
+        .detail h3 {
+            margin-top: 10px;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        /* Apply styles for the paragraphs in the job-related experience section */
+        .detail p {
+            margin-bottom: 15px;
+            font-size: 16px;
+            padding: 20px;
+        }
+
+        .labee {
+            font-size: 16px;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        .label2 {
+            font-size: 16px;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        .job-re {
+            margin-bottom: 10px;
+            padding: 10px;
+        }
     </style>
-    <link rel='stylesheet' id='abcfsl-staff-list-css'
-        href='/wp-content/plugins/staff-list/css/staff-list.css?ver=1.7.4' type='text/css' media='all'>
+    <link rel='stylesheet' id='abcfsl-staff-list-css' href='/wp-content/plugins/staff-list/css/staff-list.css?ver=1.7.4'
+        type='text/css' media='all'>
     <link rel='stylesheet' id='font-awesome-css' href='/font-awesome/4.5.0/css/font-awesome.min.css?ver=6.2.4'
         type='text/css' media='all'>
     <script type='text/javascript' src='/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
@@ -644,24 +722,30 @@
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-316"><a
                             href="/our-team/index.html" itemprop="url"><span itemprop="name">About Us</span></a></li>
                     <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27">
-                        <a href="/give-back/index.html" itemprop="url"><span itemprop="name">Give Back</span></a></li>
+                        <a href="/give-back/index.html" itemprop="url"><span itemprop="name">Give Back</span></a>
+                    </li>
                     <li id="menu-item-185"
                         class="no-highlight menu-item menu-item-type-custom menu-item-object-custom menu-item-185"><a
                             href="/index.html#HereforYou" itemprop="url"><span itemprop="name">Here for You</span></a>
                     </li>
                     <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26">
                         <a href="/business-types/index.html" itemprop="url"><span itemprop="name">Business
-                                Types</span></a></li>
+                                Types</span></a>
+                    </li>
                     <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34">
-                        <a href="/tools/index.html" itemprop="url"><span itemprop="name">Tools</span></a></li>
-                        
-<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="privacy/index.html" itemprop="url"><span itemprop="name">Privacy</span></a></li>
+                        <a href="/tools/index.html" itemprop="url"><span itemprop="name">Tools</span></a>
+                    </li>
+
+                    <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32">
+                        <a href="privacy/index.html" itemprop="url"><span itemprop="name">Privacy</span></a></li>
                     <li id="menu-item-32"
                         class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12 current_page_item menu-item-32">
-                        <a href="careers.html" aria-current="page" itemprop="url"><span itemprop="name">Careers</span></a>
+                        <a href="careers.html" aria-current="page" itemprop="url"><span
+                                itemprop="name">Careers</span></a>
                     </li>
                     <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30">
-                        <a href="/inquire/index.html" itemprop="url"><span itemprop="name">Inquire</span></a></li>
+                        <a href="/inquire/index.html" itemprop="url"><span itemprop="name">Inquire</span></a>
+                    </li>
                     <li id="menu-item-244"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244"><a
                             href="/opportunities/index.html" itemprop="url"><span
@@ -673,7 +757,7 @@
             <div class="wrap">
                 <div class="hero-container">
                     <div class="page-title">
-                        <h1>Careers</h1>
+                        <h1>Business Development Intern</h1>
                     </div>
                     <div class="page-description">
                         <p>Join our team </p>
@@ -682,193 +766,174 @@
             </div>
         </div>
 
+
         <section>
+            <h2>
+                <div class="label">Overview</div>
+            </h2>
+            <div>
+                <div itemprop="description1" class="detail field-overview js-excerpt">
+                    <p>
+                        Smart Merchant Processing is seeking a motivated and enthusiastic Business Development Intern to
+                        join our dynamic team. This internship provides a unique opportunity for individuals pursuing a
+                        Bachelor's degree in Business, Marketing, or a related field to gain hands-on experience in
+                        business development, sales, and marketing. As a Business Development Intern, you will play a
+                        crucial role in supporting the growth of our company by conducting market research, assisting in
+                        the development of business strategies, and contributing to various business expansion
+                        initiatives.
+                    </p>
 
-            <div class="cards-container">
-                <div class="card">
-                    <div class="header">
-                        <span class="price">Customer Service Supervisor</span>
-                    </div>
-                    <ul class="lists">
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Overview</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Responsibilities</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Qualifications & Benefits</span>
-                        </li>
-                    </ul>
-                    <a href="supervisor.html">
-                        <button type="button" class="action">Learn More</button>
-                    </a>
-
-                </div>
-
-                <div class="card">
-                    <div class="header">
-                        <span class="price">Customer Service Representative</span>
-                    </div>
-                    <ul class="lists">
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Overview</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Responsibilities</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Qualifications & Benefits</span>
-                        </li>
-                    </ul>
-                    <a href="representative.html">
-                        <button type="button" class="action">Learn More</button>
-                    </a>
-
-                </div>
-                <div class="card">
-                    <div class="header">
-                        <span class="price">Business Development Intern</span>
-                    </div>
-                    <ul class="lists">
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Overview</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Responsibilities</span>
-                        </li>
-                        <li class="list">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span>Qualifications & Benefits</span>
-                        </li>
-                    </ul>
-                    <a href="business-intern.html">
-                        <button type="button" class="action">Learn More</button>
-                    </a>
-                </div>
-
-                <div class="hidden">
-                    <div class="card">
-                        <div class="header">
-                            <span class="price">Finance Intern</span>
-                        </div>
-                        <ul class="lists">
-                            <li class="list">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Overview</span>
-                            </li>
-                            <li class="list">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Responsibilities</span>
-                            </li>
-                            <li class="list">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Qualifications & Benefits</span>
-                            </li>
-                        </ul>
-                        <a href="your-link-here">
-                            <button type="button" class="action">Learn MOre</button>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <div class="header">
-                            <span class="price">Finance Intern</span>
-                        </div>
-                        <ul class="lists">
-                            <li class="list">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Overview</span>
-                            </li>
-                            <li class="list">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Responsibilities</span>
-                            </li>
-                            <li class="list">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Qualifications & Benefits</span>
-                            </li>
-                        </ul>
-                        <a href="your-link-here">
-                            <button type="button" class="action">Learn More</button>
-                        </a>
-                    </div>
                 </div>
             </div>
-
         </section>
+
+        <section>
+            <h2>
+                <div class="label">Responsibilities</div>
+            </h2>
+            <div>
+                <div class="detail field-responsibilities js-excerpt" itemprop="responsibilities">
+                    <ul>
+                        <li>Conduct in-depth market research to identify potential clients, industry trends, and
+                            competitive landscape</li>
+                        <li>Assist in the development and execution of comprehensive business development strategies to
+                            drive company growth</li>
+                        <li>Support the creation of compelling sales pitches, proposals, and presentations tailored to
+                            specific client needs</li>
+                        <li>Collaborate with the sales and marketing teams to generate leads, nurture prospects, and
+                            expand the client base</li>
+                        <li>Attend meetings and networking events to build relationships with potential clients and
+                            industry professionals</li>
+                        <li>Assist in the preparation of detailed reports, data analysis, and key performance indicators
+                            for business development activities</li>
+                        <li>Provide administrative support to the business development team, including managing
+                            calendars, scheduling meetings, and maintaining databases</li>
+                        <li>Participate in brainstorming sessions and contribute creative ideas for business expansion
+                            and improvement</li>
+                    </ul>
+                    <p>This job description is not designed to
+                        cover or contain a comprehensive
+                        listing of activities, duties or
+                        responsibilities that are required of
+                        the
+                        employee for this job. Duties,
+                        responsibilities, and activities may
+                        change
+                        at any time with or without notice.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>
+                <div class="label">Qualifications</div>
+            </h2>
+            <ul class="qualification-list">
+                <li>Must be currently enrolled in an accredited
+                    university or
+                    college. </li>
+                <li>High School diploma </li>
+            </ul>
+            <div itemprop="qualifications" class="detail field-qualifications js-excerpt">
+                <div class="label">
+                    Job-related experience
+                </div>
+                <ul>
+                    <li>Strong analytical and research skills with attention to detail</li>
+                    <li>Excellent written and verbal communication skills, with the ability to articulate ideas clearly
+                        and concisely</li>
+                    <li>Ability to work independently and as part of a team, with a proactive and positive attitude</li>
+                    <li>Proficient in Microsoft Office Suite, particularly Excel and PowerPoint</li>
+                    <li>Eagerness to learn and a strong desire to contribute to the success of the team</li>
+                    <li>Familiarity with CRM software is a plus</li>
+                    <li>Previous internship or coursework related to business development, sales, or marketing is
+                        advantageous</li>
+                </ul>
+                <div class="label2">
+                    Job-Type
+                </div>
+                <ul>
+                    <li>Remote</li>
+                </ul>
+                <div class="label">
+                    Job-related skills/competencies
+                </div>
+                <ul>
+                    <li>Excellent problem-solving and analytical
+                        skills.</li>
+                    <li>Proficient in MS-Excel, PowerPoint, and
+                        Word.</li>
+                    <li>Effective communication and
+                        interpersonal skills.</li>
+                    <li>Effective time management skills.</li>
+                </ul>
+            </div>
+
+            <div class="label">
+                What You Will Gain:
+            </div>
+            <ul class="benefits-list">
+                <li>Hands-on experience in business development, sales, and marketing</li>
+                <li>Exposure to a dynamic and collaborative work environment</li>
+                <li>Networking opportunities with industry professionals</li>
+                <li>Mentorship and guidance from experienced professionals</li>
+                <li>The chance to make a meaningful impact on the growth of the company</li>
+            </ul>
     </div>
-    </div>
-    </div>
-    </div>
-    </div>
+    </section>
+
+    <section>
+        <h2>
+            <div class="label">Benefits</div>
+        </h2>
+        <div class="labee">
+            <p>Pay offered to a successful candidate will be
+                based on several factors
+                including
+                the candidate's education, previous work
+                experience, specific job duties,
+                certifications, etc.</p>
+
+        </div>
+        <ul class="benefits-list">
+
+            <li>Medical, Vision, Prescription, Telehealth, &
+                Dental Plans</li>
+
+            <li>Paid Time Off & Extended Illness Days
+                Offered</li>
+
+            <li>Employee Discounts</li>
+            <li>We offer student loan assistance.</li>
+            <li>Executive and peer networking opportunities.
+            </li>
+            <li>Career development.</li>
+            <li>Opportunity to apply for full-time career
+                positions.</li>
+            <li>Pay: $20.00 - $30.00 per hour (Final salary
+                will be determined in part by
+                the
+                qualifications of the selected candidate and
+                may be higher or lower than the
+                target.)</li>
+
+        </ul>
+        <div class="labee">
+            <p>This job requires access to confidential and
+                critical information, requiring
+                ongoing discretion and secure information
+                management.</p>
+            <p>We will ensure that individuals with
+                disabilities are provided reasonable
+                accommodation to participate in the job
+                application or interview process, to
+                perform essential job functions, and to
+                receive other benefits and
+                privileges of
+                employment. Please contact us to request
+                accommodation.</p>
+        </div>
+        <button id="buttonLink" onclick="window.location.href='apply-business.html'">Apply</button>
     </section>
 
 
