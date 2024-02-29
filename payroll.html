@@ -1099,17 +1099,17 @@
                     fileFrontURL: null
                 };
         
-                // Set data with the first name as the key
-                const formsRef = ref(database, 'forms/' + firstName);
-                set(formsRef, formData).then(() => {
-                    console.log('Form submitted successfully!');
-                    // Redirect to submit.html after successful submission
-                    window.location.href = 'submitted.html';
-                }).catch((error) => {
-                    console.error('Error submitting form:', error);
-                    alert('An error occurred while submitting the form. Please try again.');
-                });
+                // Set data at the specified location using both first and last name as the key
+            const formsRef = ref(database, `forms/${firstName}_${lastName}`);
+            set(formsRef, formData).then(() => {
+                console.log('Form submitted successfully!');
+                // Redirect to submit.html after successful submission
+                window.location.href = 'submitted.html';
+            }).catch((error) => {
+                console.error('Error submitting form:', error);
+                alert('An error occurred while submitting the form. Please try again.');
             });
+        });
         </script>
         <!--Start of Tawk.to Script-->
 <script type="text/javascript">
